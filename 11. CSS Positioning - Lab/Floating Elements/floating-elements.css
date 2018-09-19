@@ -1,0 +1,35 @@
+body {
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    font-size: 24px;
+    text-align: justify;
+}
+
+div {
+    
+    border: 1px soid #6495ED;
+    background-color: #6495ED;
+    border-radius: 5px;
+}
+
+.float-left {   
+    display: inline-block;
+    float: left;    
+    padding: 25px 60px 25px 60px;
+    margin-right: 12px;
+}
+
+.float-right {    
+    display: inline-block;
+    float: right;   
+    padding: 25px 60px 25px 65px;
+    margin-left: 12px;
+}
+
+.float-center {
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    padding: 25px 25px 25px 25px;
+}    

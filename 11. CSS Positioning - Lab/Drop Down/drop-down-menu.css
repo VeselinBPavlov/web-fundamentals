@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+    padding: 0px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    font-size: 22px;
+    background-color: #1d211e;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    text-align: center;
+    background-color: #e67c1f;
+    line-height: 50px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.tutorials-content li:hover {
+    background-color: #000000;
+}
+
+nav > ul > li {
+    padding: 0 15px;
+    line-height: 50px;
+    display: inline-block;
+}
+
+.webdesign, .tutorials{
+    position: relative;
+}
+
+.webdesign>a:after, .tutorials>a:after {
+    content: '+';
+    margin-left: 5px;
+}
+
+.webdesign:hover .webdesign-content {
+    display: block;
+}
+
+.tutorials:hover .tutorials-content {
+    display: block;
+}
+
+.webdesign-content, .tutorials-content {
+    display: none;
+    position: absolute;
+    left: 30px;
+    background-color: #e67c1f;
+    line-height: 50px;
+    text-align: left;
+}
+
+.webdesign-content li, .tutorials-content li {
+    padding: 0 20px;
+}
+
+.webdesign-content {
+    margin-left: 50px;
+}
+
+.tutorials-content {
+    margin-left: 117px;
+    top: 0px;
+}

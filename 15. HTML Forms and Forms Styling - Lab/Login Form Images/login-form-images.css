@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+body {
+    font-family: 'Oxygen', sans-serif; 
+    background-color: #927057;
+    color: white;
+    padding: 20px;    
+}
+
+header {
+    text-align: center;   
+    margin-top: 50px; 
+}
+
+header img {
+    border: 5px solid #d5c395;
+    height: 123px;
+}
+
+.triangle {
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+main {
+    background-color: #d5c395;
+    width: 40%;
+    margin: auto;   
+    position: relative;
+    top: -15px;
+}
+
+.name img, .pass img {
+    position: relative;
+    left: 50px;
+    top: 6px;
+}
+
+input[type="text"], input[type="password"] {
+    padding-left: 40px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    width: 74%;
+    margin: auto;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #EFE1C4;
+    border: none;
+    outline: none;
+    color: #927057;
+}
+
+form h2 {
+     padding: 50px 45px 5px;
+     margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    width: 82%;
+    margin-left: 44px;
+    margin-bottom: 60px;
+    border: none;
+    outline: none;
+    padding: 8px 0;
+    border-radius: 5px;
+    background-color: #927057;
+    color: #d5c395;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+footer p{
+    text-align: center;
+    color: #d5c395;
+    font-size: 14x;
+    margin: 0;
+}

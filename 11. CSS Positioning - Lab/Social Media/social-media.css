@@ -1,0 +1,94 @@
+footer {
+    background-color: #292929;
+    padding-left: 130px;
+}
+
+section {
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: white;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color:#BEB99A;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+.facebook {
+    background: url(social.jpg);
+    width: 70px;
+    height: 57px;
+}
+
+.linkedin {
+    background: url(social.jpg);
+    width: 70px;
+    height: 57px;
+    background-position: -192px 0px;
+}
+
+.youtube {
+    background: url(social.jpg);
+    width: 70px;
+    height: 57px;
+    background-position: 326px 0px;
+}
+
+.twitter {
+    background: url(social.jpg);
+    width: 70px;
+    height: 57px;
+    background-position: 771px 0px;
+}
+
+.container div {
+    display: inline-block;
+}
+
+.facebook:hover {
+    background: url(social.jpg);
+    width: 70px;
+    height: 57px;
+    cursor: pointer;
+    background-position: 0px 61px;
+}
+
+.linkedin:hover {
+    background: url(social.jpg);
+    width: 70px;
+    height: 57px;
+    background-position: -192px 61px;
+    cursor: pointer;
+}
+
+.youtube:hover {
+    background: url(social.jpg);
+    width: 70px;
+    height: 57px;
+    background-position: 326px 61px;
+    cursor: pointer;
+}
+
+.twitter:hover {
+    background: url(social.jpg);
+    width: 70px;
+    height: 57px;
+    background-position: 771px 61px;
+    cursor: pointer;
+}

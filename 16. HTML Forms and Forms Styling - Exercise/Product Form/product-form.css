@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+body {
+    font-family: 'Anton', sans-serif;
+    font-size: 14px;
+    width: 70%;
+    margin: auto;
+    position: relative;
+    top: 30px;
+    border-radius: 20px;
+    height: 520px;
+    -webkit-box-shadow: 11px 6px 35px 10px rgba(66,201,202,0.27);
+    -moz-box-shadow: 11px 6px 35px 10px rgba(66,201,202,0.27);
+    box-shadow: 11px 6px 35px 10px rgba(66,201,202,0.27);
+}
+
+.product {
+    float: left;
+    width: 40%;
+    background: linear-gradient(to bottom, #6afdc9 0%,#42c9ca 100%);
+    height: 520px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: relative;
+    top: 0px;
+    margin-right: 30px;
+}
+
+.product img {
+    width: 100%;
+    position: relative;
+    top: 70px;
+    right: 10px;
+}
+
+form label, form select, form button, form input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form {
+    position: relative;
+    top: 50px;
+}
+
+form h1 {
+    font-size: 32px;
+}
+form h3 {
+    font-size: 24px;
+}
+
+form label {
+    font-family: 'Lato', sans-serif;
+}
+
+form input, form select{
+    position: relative;
+    left: 15px;
+}
+
+form input {
+    margin-top: 20px;
+    border: none;
+    border-bottom: 2px solid #42C9CA;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+form input::placeholder {
+    font-size: 14px;
+    color: #42C9CA;
+}
+
+form select {
+    background-color: #42C9CA;
+    color: white;
+    border: none;
+    padding: 5px 152px 5px 5px;
+}
+
+form select {
+    -webkit-appearance: none;
+}
+
+form button {
+    border: 2px solid #42C9CA;
+    border-radius: 30px;
+    margin-top: 50px;
+    background: none;
+    text-align: center;
+    
+    padding: 8px 25px;
+}
+
+form button a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #42C9CA;
+}
+
+form button:hover {
+    background-color: #42C9CA;
+    cursor: pointer;
+}
+
+form button a:hover {    
+    color: white;
+}

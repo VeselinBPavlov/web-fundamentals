@@ -1,0 +1,20 @@
+form {
+    width: 300px;
+    margin: auto;
+}
+
+label, input {
+    display: block;
+}
+
+label {
+    margin-top: 5px;
+}
+
+#name {
+    width: 230px;
+}
+
+#select {
+    width: 234px;
+}

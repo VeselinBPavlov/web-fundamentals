@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+
+body {
+    width: 1006px;
+    margin: auto;
+    font-family: 'Vollkorn', serif;
+    color: #778495;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 40px;    
+    margin-bottom: 10px;
+}
+
+section {
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #EBEFF2;
+    width: 315px;
+    height: 500px;
+    margin: 0 8px;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 30px;
+    background-color: #EBEFF2;
+    padding: 20px 40px;
+    margin: 0;
+    font-weight: lighter;
+}
+
+.price {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+div p {
+    margin: 20px 15px;
+    border-bottom: 1px solid #EBEFF2;
+    padding: 0 10px;
+    font-family: 'Tahoma', sans-serif;
+    font-size: 16px;
+}
+
+button {
+    position: relative;
+    left: 15px;
+    border: none;     
+    background-color: #CCCCCC;   
+    width: 90%;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+button a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+
+.small {
+    top: 150px;
+}
+
+.medium {
+    top: 110px;
+}
+
+.large {
+    top: 30px;
+}
+
+section:hover h2 button{
+    cursor: pointer;
+}
+
+h2:hover {
+    background-color: #65D3E2;
+}
+
+.price:hover {
+    color: #65D3E2;
+}
+
+button:hover {
+    background-color: #65D3E2;
+}
+

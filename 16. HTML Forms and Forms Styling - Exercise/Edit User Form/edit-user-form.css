@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+body {
+    font-family: "Roboto", Helvetica, sans-serif; 
+    font-size: 16px;
+    color: #1E1917;
+    width: 90%;
+    margin: auto;
+    background-color: #EEEEEE;
+}
+
+h1 {
+    background-color: white;
+    font-size: 50px;
+    color: #324E5B;
+    font-weight: 900;
+    margin-top: 30px;
+    padding: 40px;
+    padding-left: 55px;
+    border-top: 12px solid #324E5B;
+    border-right: 12px solid #324E5B;
+    margin-bottom: 40px;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 40px;
+}
+
+input[type='text'], input[type='number'], input[type='password'], input[type='email'], .groups {
+    margin: 15px 0px 15px 40px;
+    padding: 12px 800px 12px 10px;
+    border: 5px solid #324E5B;
+    border-bottom-color: #EEEEEE;
+    border-right-color: #EEEEEE;
+}
+
+input[type='radio'] {
+    display: inline;
+    margin: 20px -30px 20px 50px;
+    transform: scale(1.5);
+}
+
+.broadband {
+    margin-right: 300px;
+}
+
+.radio, .broadband {
+    display: inline;
+}
+
+input[type='password'] {
+    margin-top: 3px;
+}
+
+.groups {
+    margin-top: 3px;
+    margin-bottom: 30px;
+    width: 170px;
+    background-color: white;
+    padding-bottom: 0px;
+}
+
+input[type="checkbox"] {
+    display: inline;
+    transform: scale(1.3);
+}
+
+.groups label {
+    position: relative;
+    bottom: 18px;
+    right: 8px;
+}
+
+form a {
+    color: #005A4C;
+    display: block;
+    margin: 10px 0px 20px 40px;
+    font-size: 20px;
+}
+
+input[type="button"] {
+    font-size: 20px;
+    font-family: "Roboto", Helvetica, sans-serif; 
+    font-weight: 700;
+    padding: 10px 140px;
+    background-color: #EEEEEE;
+    border: none;
+    border-bottom: 5px solid #FF5427;
+    border-right: 5px solid #FF5427;
+    color: #FF5427;
+    margin-bottom: 20px;
+    position: relative;
+    left: 140px;
+}
+
+input[value="SAVE"] {
+    border-bottom: 5px solid #005A4C;
+    border-right: 5px solid #005A4C;
+    color: #005A4C;
+    left: 220px;
+}

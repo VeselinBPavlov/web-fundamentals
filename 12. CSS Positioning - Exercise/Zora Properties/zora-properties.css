@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: white;
+}
+
+body {
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    font-size: 14px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: '';
+    display: none;
+    clear: both;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.aside {
+    float: left;
+    margin-top: 60px;
+    width: 20%;
+}
+
+.aside h1 {
+    font-family: 'Comfortaa', cursive;
+    color:#333;
+    font-size: 3rem;
+    text-transform: lowercase;
+    text-align: center;
+    line-height: 2.6rem;
+    margin-bottom: 30px;
+    min-width: 300px;
+}
+
+.aside img {
+    display: block;
+    width: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.aside h2 {
+    color: #91a5af;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.aside ul li {
+    line-height: 20px;
+    border-left: solid 3px white;
+    padding: 10px 30px;
+    cursor: pointer;
+    color: #91a5af;
+}
+
+.aside ul li:hover {
+    border-left: solid 3px #ff7739;
+    color: #333333;
+}
+
+.aside ul li:hover a {
+    color: #333333;
+}
+
+.aside ul li a {
+    color: #91a5af;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 10px;
+}
+
+.main {
+    float: left;
+    background-color: #f4f5f7;
+    width: 80%;
+}
+
+.header {
+    margin: 60px 0 30px 60px;
+    line-height: 3rem;
+}
+
+.header h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    display: inline-block;
+}
+
+.header h1>span {
+    color: #9aaab7;
+    margin-left: 30px;
+}
+
+.header>span {
+    float: right;
+    padding: 10px;
+    border: solid 3px #ff7739;
+    border-radius: 20px;
+    color: #FFFFFF;
+    line-height: 10px;
+    font-size: 1rem;
+    background-color: #ff7739;
+    margin-right: 60px;
+    cursor: pointer;
+}
+
+.header>span:hover {
+    background-color: transparent;
+    color: #ff7739;
+}
+
+.main section>* {
+    display: inline-block;
+}
+
+.main section header {
+    display: block;
+}
+
+.section {
+    margin-left: 60px;
+}
+
+.section header * {
+    margin-bottom: 20px;
+}
+.section header h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+.section header address {
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+.article {
+    margin-bottom: 40px;
+    margin-right: 40px;
+    background-color: #FFFFFF;
+    padding-top: 60px;
+    position: relative;
+    box-shadow: 8px 6px 17px -1px rgba(0,0,0,0.26);
+}
+
+.article .status {
+    position: absolute;
+    top: 80px;
+    left: -20px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 5px 20px;
+    line-height: 20px;
+    border-radius: 20px;
+}
+
+.rented {
+    background-color: #b9c4cd;
+}
+
+.rented:before {
+    content: "\2713" " ";
+}
+
+.listed {
+    background-color: #68bc69;
+}
+
+.draft {
+    background-color: #92a6af;
+}
+
+.article h3, .article h4 {
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #91a5af;
+}
+
+.article h4 {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    color: #000000;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.clearfix:after {
+    content: '';
+    display: none;
+    clear: both;
+}
+
+/*HEADER START*/
+
+.header {
+    background: url("images/Layer-759_02.jpg");
+    background-size: cover;
+    height: 750px;
+    text-align: center;
+}
+
+.nav-top {
+    background-color: rgba(186, 146, 94, 0.9);
+    display: inline-block;
+    margin: 20px auto 0 auto;
+    text-align: center;
+    width: 80%;
+}
+
+.nav-top ul {
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.nav-top li {
+    display: inline-block;
+    line-height: 60px;
+    padding: 0 0.3rem;
+}
+
+.link-top {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.link-top:hover {
+    color: #F1DDC4;
+}
+
+.active {
+    color: #F1DDC4;
+}
+
+h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 110px;
+    margin-bottom: 60px;
+    text-shadow: 0 0 5px #afafaf;
+}
+
+.header-text {
+    font-size: 2rem;
+    color: #FFFFFF;
+    text-shadow: 0 0 5px #757575;
+}
+
+.services-btn {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1rem;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 1.8rem;
+    background-color: rgba(8, 8, 31, 1);
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.services-btn:hover {
+    background-color: #A78354;
+    color: #000000;
+}
+
+.fa-chevron-right {
+    color: #A78354;
+}
+
+.services-btn:hover .fa-chevron-right {
+    color: #000000;
+}
+
+/*HEADER END*/
+/*INDUSTRIES START*/
+
+main {
+    margin-top: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 5rem;
+    text-align: center;
+}
+
+.industries-wrapper {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.article-industries {
+    display: inline-block;
+    width: 350px;
+    height: 130px;
+    margin: 40px 20px 0 20px;
+    overflow: hidden;
+}
+
+.icon {
+    float: left;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #000000;
+    border-radius: 50%;
+}
+
+.article-industries h3 {
+    display: block;
+    text-align: left;
+    font-size: 1.4rem;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.article-industries p {
+    font-size: 1.2rem;
+    display: inline-block;
+    text-align: justify;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+/*INDUSTRIES END*/
+/*SLOGAN START*/
+
+.slogan {
+    background: linear-gradient(
+            rgba(255, 255, 255, 0.7),
+            rgba(255, 255, 255, 0.7)),
+    url("images/steel-bg.jpg") center;
+    background-size: cover;
+    height: 140px;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.colored-text {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #A78354;
+}
+
+.slogan p:last-of-type {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/*SLOGAN END*/
+/*BENEFITS START*/
+
+.benefits {
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+            url("images/background-choose-us.jpg") center;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.benefits h2 {
+    font-size: 3.5rem;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.article-benefits {
+    border: solid 3px #A78354;
+    padding: 20px 40px;
+    display: inline-block;
+    width: 340px;
+    height: 170px;
+    margin: 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.article-benefits:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.article-benefits h3 {
+    font-size: 2.2rem;
+}
+
+.article-benefits p {
+    font-size: 1.4rem;
+    text-align: left;
+    margin-top: 20px;
+}
+
+/*BENEFITS END*/
+/*TESTIMONIALS START*/
+
+.testimonials {
+    height: 540px;
+    background: url("images/consulting-woman.jpg") center;
+    background-size: cover;
+    text-align: right;
+}
+
+.article-testimonials {
+    display: inline-block;
+    width: 560px;
+    height: 470px;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-top: 60px;
+    margin-right: 40px;
+    padding: 40px;
+}
+
+.testimonials-text {
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.testimonials-text:before {
+    content: open-quote;
+    font-size: 3rem;
+    color: #A78354;
+}
+
+.testimonials-text:after {
+    content: close-quote;
+    font-size: 3rem;
+    color: #A78354;
+}
+
+.article-testimonials div {
+    height: 250px;
+    background-color: #080820;
+    margin-top: 20px;
+}
+
+.article-testimonials div {
+    justify-content: space-between;
+}
+
+.testimonials-name {
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 30px 0 0 20px;
+}
+
+.testimonials-company {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #767583;
+    margin: 10px 20px 0 0;
+}
+
+/*TESTIMONIALS END*/
+/*PARTNERS START*/
+
+.partners ul {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.partner-img {
+    margin: 30px;
+    align-self: center;
+}
+
+/*PARTNERS END*/
+/*FOOTER START*/
+
+.footer {
+    background-color: #080820;
+    height: 250px;
+    justify-content: space-around;
+    color: #FFFFFF;
+}
+
+.footer h4 {
+    color: #FFFFFF;
+    font-size: 2rem;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.consulting {
+    width: 250px;
+    text-align: right;
+}
+
+.consulting ul {
+    display: block;
+    width: 150px;
+    text-align: left;
+    line-height: 12px;
+    font-size: 1rem;
+    margin: 20px 0 40px 30px;
+}
+
+.consulting ul li {
+    margin-top: 20px;
+}
+
+.footer-icon {
+    color: #000000;
+    font-size: 1.5rem;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #83838f;
+    margin-left: 15px;
+}
+
+.extra-links-section {
+    width: 200px;
+    text-align: center;
+}
+
+.list-holder {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.extra-link {
+    font-size: 1rem;
+    color: #987770;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.instagram {
+    width: 300px;
+}
+
+.instagram figure {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.widget {
+    width: 90px;
+    display: inline-block;
+}
+
+/*FOOTER END*/

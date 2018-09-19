@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Lemon');
+
+body {
+    font-family: 'Lemon', 'Arial', sans-serif;
+    background-color: #602D75;
+}
+
+main {
+    width: 900px;
+    height: 500px;
+    margin: auto;
+    background-color: #FFAE32;
+    border-radius: 30px;
+    position: relative;
+    top: 30px;
+}
+
+.articles {
+    position: relative;
+    left: 50px;
+    top: 15px;
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+article {
+    width: 230px;
+    height: 390px;
+    display: inline-block;
+    background-color: #5F2056;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+img {
+    width: 90%;
+    border: 5px solid #826B73;
+    border-radius: 60%;
+}
+
+div p {
+    margin: 0;
+    color: white;
+}
+
+.price {
+    font-size: 26px;
+    margin-top: 5px;
+}
+
+.guarantee {
+    color: #FFAE32;
+}
+
+.info {
+    position: relative;
+    left: 15px;
+}
+
+.info p {
+    text-align: left;
+}
+
+button {
+    width: 90%;
+    border-color: #826B73;
+    background-color: white;
+    padding: 2px 0; 
+    margin: 10px 0;
+    border-radius: 20px;
+}
+
+button a {
+    text-decoration: none;
+    color: #964DFF;
+    font-family: 'Lemon', 'Arial', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+img:hover {
+    border: 5px solid #FA4F00;
+    cursor: pointer;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button a:hover {
+    color: #150005;
+}

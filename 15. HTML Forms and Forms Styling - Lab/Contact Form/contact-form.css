@@ -1,0 +1,81 @@
+form {
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid #898786;
+    background-color: #E7E7E7;
+    color: #898786;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header {
+    padding-top: 20px;
+    padding-left: 55px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #898786;
+    width: 90%;
+    margin:auto;
+}
+
+.header h1, .header h5 {
+    margin: 0;
+}
+
+.header h5 {
+    font-size: 14px;
+}
+
+.fields {
+    display: block;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+#fullName, #email, #subject {
+    margin-left: 5px;
+    padding: 5px;
+    width: 62%;
+}
+
+input[type="button"] {
+    display: block;
+}
+
+#subj {
+    margin-left: 26px;
+}
+
+#msg {
+    margin-left: 19px;
+    vertical-align: top;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+    margin-left: 5px;
+    padding: 5px;
+    width: 62%;
+}
+
+#subject {
+    color: #898786;
+    width: 64%;
+}
+
+input[type="button"] {
+    margin-top: 20px;
+    margin-left: 121px;
+    margin-bottom: 40px;
+    color: #FEFCEC;
+    background-color: #E27575;
+    padding: 15px 90px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px #B6B6B6;
+    text-shadow: 1px 1px 1px #9E3F3F;
+    cursor: pointer;
+    font-size: 15px;
+}
+
