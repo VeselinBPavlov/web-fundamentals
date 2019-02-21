@@ -12,9 +12,3 @@
 09. Responsive Design
 10. Transitions and Animations
 
-
-## Status:
-Uncomplete
-
-## Certificate:
-none
